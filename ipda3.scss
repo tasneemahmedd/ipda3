@@ -1,0 +1,320 @@
+body{
+    font-family: 'Cairo', sans-serif;
+}
+nav{
+    .container-fluid{
+        img{
+            width: 200px;
+        }
+    .nav-item{
+        text-align: left;
+    }
+}
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+button:focus{
+    outline: none;
+}
+header .header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-img{
+       flex: 0.4;
+       margin: 50px 10px 0 0;
+        img{
+            width: 90%
+        }
+    }
+    .header-info{
+        height: 600px;
+        flex: 0.5;
+        background-image: url("assets/imgs/header-side.jpg");
+        background-position: top left ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        h1{
+           width: 600px;
+           margin: 100px 0 0 20px;
+          
+        }
+    }
+}
+.line{
+ border-bottom: 2px solid #3AADE6;
+ width: 6%;
+ padding-top: 20px;
+ margin: 0 auto;
+ margin-bottom: 30px;
+ }
+ p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.how-we-are-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    div{
+        flex: 0.5;
+    }
+    .how-we-are-img{
+        margin: 100px;
+        margin-right: 0;
+        box-sizing: border-box;
+        img{
+            width: 100%;
+        }
+    }
+    .how-we-are-info{
+        p{
+            font-size: 20px;
+            line-height: 1.8;
+            color: #233142;
+        }
+    }
+}
+.services{
+    background-image: url("assets/imgs/we-offer.png");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    .all-cards{
+       width: 80%;
+       margin: auto;
+       padding-top: 80px;
+    }
+    .card-body{
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+
+ .card-box img{
+     width: 50% !important;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 10px;
+ }
+ .card-details {
+     padding: 20px;
+ }
+ .card-details h5 {
+    font-size: 15px;
+    text-align: center;
+    color: #3AADE6;
+ }
+}
+ .card-text{
+     
+    font-size: 15px;
+    line-height: 1.6;
+    color: #233142;
+
+}
+ 
+}
+.owl-nav{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+}
+.owl-prev , .owl-next{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.our-works{
+    display: block;
+    background-image: url("assets/imgs/bg30-Ar1web.gif");
+    margin-bottom: 60px;
+ .all-apps{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 100px 0;
+
+    .app-box{
+        flex: 33%;
+        margin-bottom: 20px;
+
+      .app-details{
+        width: 290px;
+        background-color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 7%;
+        box-shadow: 5px 5px 15px #888888;
+        
+        img{
+            width: 100%;
+            border-radius: 7%;
+        }
+        p{
+            font-size: 16px;
+            padding: 20px;
+        }
+
+      }  
+
+    }
+}
+
+}
+.main-button{
+    width: 100%;
+    text-align: center;
+    button{
+        width: 270px;
+        height: 50px;
+        background-color: #233142;
+        color: white;
+        border-radius: 50px;
+        border: none;
+        box-shadow: 5px 5px 15px #888888;
+        transition: 1s;
+    }
+    button:hover{
+        color: #212529;
+        background-color: white;
+        transition: 1s;
+        border: none;
+    }
+}
+.reading-block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto 100px auto ;
+.reading-box{
+    flex: 50%;
+    
+    .reading-details{
+        width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 7%;
+        box-shadow: 5px 5px 15px #888888;
+        margin-bottom: 50px;
+        img{
+            width: 100%;
+            border-radius: 7%;
+
+        }
+        p{
+            font-size: 20px;
+            padding: 20px 0 0 0;
+            margin-bottom: 0;
+        }
+       div{
+           @extend .main-button;
+           text-align: start;
+
+           button{
+            width: 90px;
+            height: 40px;
+            margin: 20px;
+            box-shadow: none;
+           }
+           button:hover{
+                border: 1px solid #233142;
+           }
+
+       } 
+    }
+}
+div{
+    @extend .main-button;
+    button{
+        width: 160px;
+
+    }
+}
+}
+
+.our-clients{
+    background-image: url("assets/imgs/our-client-bg.jpg");
+    background-size: cover;
+    background-position: center;
+
+  .clients{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .client-box{
+      width: 50%;
+    
+  .client-banner{
+    width: 100%;
+
+   img{
+    width: 100%;
+  }
+}
+}
+}
+}
+footer{
+    background-image: url("assets/imgs/footer.jpg");
+    background-position: center;
+    background-size: cover;
+    .footer-box{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+        .footer-img{
+            flex: 50%;
+            img{
+                width: 198px;
+            }
+        }
+    }
+   .contact-us{
+     flex: 50%;
+     img{
+         width: 215px;
+     }
+     h5{
+         color: white;
+         font-size: 16px;
+         margin: 40px 0;
+     }
+     .social{
+         text-align: right;
+         color: white;
+         i.fab{
+             font-size: 30px;
+             padding: 10px;
+        
+     }
+     i.fab:hover{
+         cursor: pointer;
+     }
+
+    .fa-facebook-f:hover {
+        color: #3b24ea;
+    }
+    .fa-twitter:hover {
+        color: #1489ed;
+    }
+    .fa-whatsapp:hover {
+        color: #25d366;
+    }
+    .fa:hover{
+        transition: 1s;
+    }
+   }
+}
+}
